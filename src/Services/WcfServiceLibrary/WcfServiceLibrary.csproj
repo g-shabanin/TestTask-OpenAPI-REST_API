@@ -15,12 +15,13 @@
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
     <XsdCodeGenEnabled>True</XsdCodeGenEnabled>
+    <OutputPath>..\..\..\BuildResoult\bin\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>..\..\..\BuildResoult\obj\$(Configuration)\$(MSBuildProjectName)\</IntermediateOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -28,7 +29,6 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -52,8 +52,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\BOClassLibrary\BOClassLibrary.csproj">
-      <Project>{42BF97D5-1CA8-4093-8115-1B0EA79E95C3}</Project>
+    <ProjectReference Include="..\..\BusinessObjects\BOClassLibrary\BOClassLibrary.csproj">
+      <Project>{42bf97d5-1ca8-4093-8115-1b0ea79e95c3}</Project>
       <Name>BOClassLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\DataAccessLayer\DALClassLibrary\DALClassLibrary.csproj">
