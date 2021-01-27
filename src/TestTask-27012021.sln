@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALClassLibrary", "DataAcce
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BOClassLibrary", "BOClassLibrary\BOClassLibrary.csproj", "{42BF97D5-1CA8-4093-8115-1B0EA79E95C3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servers", "Servers", "{6B3E8F9C-A1E5-4F48-8900-D232F3676DC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfHostServer", "Servers\SelfHostServer\SelfHostServer.csproj", "{58A7E121-48A9-4E8E-9830-4048FA3B9574}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{42BF97D5-1CA8-4093-8115-1B0EA79E95C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42BF97D5-1CA8-4093-8115-1B0EA79E95C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42BF97D5-1CA8-4093-8115-1B0EA79E95C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A7E121-48A9-4E8E-9830-4048FA3B9574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A7E121-48A9-4E8E-9830-4048FA3B9574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A7E121-48A9-4E8E-9830-4048FA3B9574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A7E121-48A9-4E8E-9830-4048FA3B9574}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +60,7 @@ Global
 		{346B2790-2FF8-47E4-927F-67B2D1F969C8} = {8A36A23D-D5E8-4216-95DB-0885F9A36D6B}
 		{EB69FF79-268A-4051-B98F-F12C92136D86} = {50C24C6E-C612-4B53-BB52-41F4975DFA9C}
 		{42BF97D5-1CA8-4093-8115-1B0EA79E95C3} = {9ABDDC46-FC34-451C-8943-2287A09F6E30}
+		{58A7E121-48A9-4E8E-9830-4048FA3B9574} = {6B3E8F9C-A1E5-4F48-8900-D232F3676DC4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9389567-C12E-443E-8CA7-769A8E649FD4}
