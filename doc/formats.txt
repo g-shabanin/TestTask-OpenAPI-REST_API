@@ -1,0 +1,22 @@
+==================================
+INPUT
+{{source address},{destination address},[{carton dimensions}]}
+
+OUTPUT
+different forman
+
+==================================
+API 1  (JSON)input {contact address, warehouse address, package dimensions:[] }
+output {total}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+API 2  (JSON)
+input {consignee, consignor, cartons:[] }
+output {amount}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+API 3  (XML)
+
+input <xml> <source /> <destination /> <packages><package /></packages></xml> 
+output <xml><quote /></xml>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
